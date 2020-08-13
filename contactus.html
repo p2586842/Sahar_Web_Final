@@ -1,0 +1,161 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/mystyles.css" rel="stylesheet" type="text/css" /> <!--this is a link to the css file -->
+		<script src="js/font.js"></script>
+		<title>Document</title>
+	</head>
+
+<BODY>
+
+	<div id="container">
+	
+	
+	
+	<div id="thead">
+	<h1><p><b><font color = "#DC143C">VW Scirocco</font></b></p></h1>  <!--this is the code for the image of the website name inserted in the
+	div tag at the top of each page -->
+
+	</div>
+	
+	<div id="toparea"> <!--these are hyperlinks for each headind in the navigation bar navigating around the website-->
+	<ul class="topnav">
+	
+  <li><a href="index.html">Home</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+  <li><a href="product.html">Product</a></li>
+  <li><a href="contactus.html">Contact Us</a></li></ul>
+	</div>
+	
+
+
+	<div id="search">
+
+		<form class="example" action="action_page.php">  <!--this is the code for the search button-->
+  		<input type="text" placeholder="Search.." name="search">
+  		<button type="submit"><i class="fa fa-search"></i></button>
+</form> 
+
+</div>
+
+<div id= "browse_btn">
+<button class="btn"><i class="fa fa-folder"></i> Browse Library</button>
+
+
+</div>
+
+<div id="register">
+
+<a  href="php/register_code.php">
+
+	<button type="button" onclick="php/register_code.php"><center>Register</center></button>
+
+</a>
+				
+</div>
+
+<div id="login">
+
+<a  href="php/login_code.php">
+
+	<button type="button" onclick="php/login_code.php"><center>Login</center></button>
+
+</a> <!--this is the code for the login-->
+
+
+</div>
+
+
+
+
+<div id="divone"> <!-- this div tag contains information about the company for the Contact Us heading on the Contact Us page -->
+<p><b><h1> Contact Us</h1></p></b> <!--I have used the h1 to change the font of the heading
+ "Contact Us" under the navigation bar -->
+
+<h3><p> <b>
+If you require any further information or wish to discuss any further queries, then please do not hesitate<br>
+to contact us using the details or by simply filling in the form below and a member of our team will be back<br>
+to you at our earliest.
+
+</p></b></h3>
+
+</div>
+
+<div id="divtwo"> <!--this div tag conatins contact details about the company -->
+<h3><p><b>VW Scirocco  <br>
+High Street Deritend <br>
+Digbeth <br>
+Birmingham <br>
+B5 5SU <br>
+Tel: 079766343166 Lines open from 7a.m-7.00 p.m<br>
+Email: cars/vw/scirocco/gt/2015-3-door-automatic-petrol-2_tl@gmail.com <br>
+Company No. 0834789  <br>
+VAT REG No. 1423367 <b/></p/></b></h3>
+
+
+
+</div>
+
+<div id="divthree"> <!--this div tag has an embedded code for the map which will load up on the webapage when clicked on -->
+
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2430.196275347219!2d-1.8878124346026037!3d52.475581847273176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc80b78be089%3A0x6fe1f130e83ab3a8!2sFloodgate+St%2C+Birmingham+B5+5SU!5e0!3m2!1sen!2suk!4v1478523030963" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<!--this div tag has a piece of code in it which will display on the webpage so it can be filled out by the user/customer !-->
+
+<div id="divfour">
+<form action="MAILTO:S45321419@sccb.ac.uk" method="post" enctype="text/plain" onsubmit="formValidator();">
+
+				<p>First name:</p> <input type="text" name="First_name" size="30" id="fName" required>
+				<p>Surname:</p> <input type="text" name="Sur_name" size="30" id="sName" required> 
+				<p>Email:</p> <input type="text" name="email" size="30" id="emailcontact" required> 
+			<br>
+			<br>
+				<p>Gender:</p>
+					<input type="radio" name="Gender" value="Male" required>Male
+					<br>
+					<input type="radio" name="Gender" value="Female" required>Female 
+					<br>
+					<input type="radio" name="Gender" value="Prefernot" required>Prefer Not to Say 
+					<br>
+			<br>
+			<br>
+				<p>Additional comments</p>
+					<textarea  name="Comments" rows="5" cols="25">
+					</textarea>
+			<br>
+			<br>
+			<br>
+			
+			
+			<br>
+			<br>
+			
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">
+
+		
+
+		</form> <!-- form closes here -->
+</div>
+
+
+<div id="socialnav"> <!--this div tag is for social navigations to external sites-->
+	<a href="https://www.facebook.com/VW/"><img src="images/facebook-icon.png" alt="social"></a> <!--hyperlink to Facebook -->
+	<a href="https://twitter.com/vw"><img src="images/twitter-icon.png" alt="social"></a> <!--hyperlink to Twitter-->
+	<a href="https://www.sandicliffe.co.uk/used-cars/vw/scirocco/gt/2015-3-door-automatic-petrol-2.0-tsi-bluemotion-tech-gt-3dr-dsg-53771?keyword=&adposition=&matchtype=b&gclid=CjwKCAjw5vz2BRAtEiwAbcVIL6jzrnK3S_7urKTU9xBnmLzGgfz2Jz-HaM2VBIgFC-23r2qmPW4zvhoCwrkQAvD_BwE"><img src="images/google-plus-icon.png" alt="social"></a> <!--hyperlink to Google+ -->
+</div>
+
+
+<div id="copyright"> <!--this is the div tag for the copyright information within on the bottom of the page-->
+	<center>All rights reserved 2020-� VW Scirocco</center>
+	</div>
+	
+	
+	
+</div>
+</body>	
+</HEAD>
+</HTML>
