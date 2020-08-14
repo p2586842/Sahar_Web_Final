@@ -1,157 +1,193 @@
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="css/mystyles.css" rel="stylesheet" type="text/css" /> <!--this is a link to the css file -->
-		<script src="js/font.js"></script>
-		<title>Document</title>
-	</head>
-	
-		<BODY>
-			<div id="container">
-			
-			
-			
-			
-			<div id="thead">
-				<h1><p><b><font color = "#DC143C">VW Scirocco</font></b></p></h1> <!--this is the code for the image of the website name inserted in the
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/mystyles.css" rel="stylesheet" type="text/css" />
+	<!--this is a link to the css file -->
+	<script src="js/font.js"></script>
+	<title>Document</title>
+</head>
+
+<BODY>
+	<div id="container">
+
+
+
+
+		<div id="thead">
+			<h1>
+				<p><b>
+						<font color="#DC143C">VW Scirocco</font>
+					</b></p>
+			</h1>
+			<!--this is the code for the image of the website name inserted in the
 				div tag at the top of each page -->
+		</div>
+
+		<div id="toparea">
+			<!--these are hyperlinks for each headind in the navigation bar navigating around the website-->
+			<ul class="topnav">
+
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="product.html">Product</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+
+
+			</ul>
+		</div>
+
+
+		<div id="search">
+
+			<form class="example" action="action_page.php">
+				<!--this is the code for the search button-->
+				<input type="text" placeholder="Search.." name="search">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+
+		</div>
+
+		<div id="browse_btn">
+			<button class="btn"><i class="fa fa-folder"></i> Browse Library</button>
+
+
+		</div>
+
+		<div id="register">
+
+			<a href="php/register_code.php">
+
+				<button type="button" onclick="php/register_code.php">
+					<center>Register</center>
+				</button>
+
+			</a>
+
+		</div>
+
+		<div id="login">
+
+			<a href="php/login_code.php">
+
+				<button type="button" onclick="php/login_code.php">
+					<center>Login</center>
+				</button>
+
+			</a>
+			<!--this is the code for the login-->
+
+		</div>
+
+		
+		<div id="image1_products"> <!--this is the div tag for the first image on the webpage -->
+			<picture>
+			<img onmouseover = "alert ('onmouseover');" onmouseout = "alert ('silver car')" src="images/Products-1.jpg" width = "100%" > 
+			</picture> <!--this code "onmouseover" makes the pictures size go bigger once the mouse the moved over it -->
+
 			</div>
-			
-			<div id="toparea"> <!--these are hyperlinks for each headind in the navigation bar navigating around the website-->
-			  <ul class="topnav">
-			  
-			  <li><a href="index.html">Home</a></li>
-              <li><a href="aboutus.html">About Us</a></li>
-              <li><a href="product.html">Product</a></li>
-              <li><a href="contactus.html">Contact Us</a></li>
-					
-					
-				</ul>
-			</div>
 
-			
-			<div id="search">
+	
 
-<form class="example" action="action_page.php">  <!--this is the code for the search button-->
-  <input type="text" placeholder="Search.." name="search">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form> 
+		<div id="image2_products">
+			<!--this is the div tag for the first image on the webpage -->
+			<picture>
+				<img onmouseover = "alert ('onmouseover');" onmouseout = "alert ('Black car')" src="images/Products-2.jpg" width = "100%"> 
 
-</div> 
+			</picture>
 
-<div id= "browse_btn">
-<button class="btn"><i class="fa fa-folder"></i> Browse Library</button>
+		</div>
 
+		<div id="image3_products">
+			<!--this is the div tag for the first image on the webpage -->
+			<picture>
+				<img onmouseover = "IncreaseImg ('onmouseover');" onmouseout = "DecreaseImg ('onmouseout')"src="images/Products-4.jpg" width = "100%">
 
-</div>
+			</picture>
 
-<div id="register">
+		</div>
 
-<a  href="php/register_code.php">
+		<div id="image4_products">
+			<!--this is the div tag for the first image on the webpage -->
+			<picture>
+				<img onmouseover = "IncreaseImg ('onmouseover');" onmouseout = "DecreaseImg ('onmouseout') "src="images/Products-4.jpg" width = "100%">
 
-	<button type="button" onclick="php/register_code.php"><center>Register</center></button>
+			</picture>
 
-</a>
-				
-</div>
+		</div>
 
-<div id="login">
+		<div id="image5_products">
+			<!--this is the div tag for the first image on the webpage -->
+			<picture>
+				<img onmouseover = "IncreaseImg ('onmouseover');" onmouseout = "DecreaseImg ('onmouseout')" src="images/Products-5.jpg" width = "100%">
 
-<a  href="php/login_code.php">
+			</picture>
 
-	<button type="button" onclick="php/login_code.php"><center>Login</center></button>
+		</div>
 
-</a> <!--this is the code for the login-->
+		<div id="image6_products">
+			<!--this is the div tag for the first image on the webpage -->
+			<picture>
+				<img onmouseover = "IncreaseImg ('onmouseover');" onmouseout = "DecreaseImg ('onmouseout')" src="images/Products-6.jpg" width = "100%">
 
-</div>
+			</picture>
 
-<div id="image1_products"> <!--this is the div tag for the first image on the webpage -->
-<picture>
-<img src="images/Products-1.jpg" onmouseover="biggerImg(this)" onmouseout="originalImg(this)"alt="Products-1">
-
-</picture>
-
-</div>
-
-<div id="image2_products"> <!--this is the div tag for the first image on the webpage -->
-<picture>
-<img src="images/Products-2.jpg">
-
-</picture>
-
-</div>
-
-<div id="image3_products"> <!--this is the div tag for the first image on the webpage -->
-<picture>
-<img src="images/Products-3.jpg">
-
-</picture>
-
-</div>
-
-<div id="image4_products"> <!--this is the div tag for the first image on the webpage -->
-<picture>
-<img src="images/Products-4.jpg">
-
-</picture>
-
-</div>
-
-<div id="image5_products"> <!--this is the div tag for the first image on the webpage -->
-<picture>
-<img src="images/Products-5.jpg">
-
-</picture>
-
-</div>
-
-<div id="image6_products"> <!--this is the div tag for the first image on the webpage -->
-<picture>
-<img src="images/Products-6.jpg">
-
-</picture>
-
-</div>
+		</div>
 
 
 
 
 
 
-<div id="dwn_load_description"> <!--this div tag contains the text about offers available on the outfits displayed on the website --> 
-<h4><b><center> Click to download a pdf brochure which shows the best VW Scirocco cars available in our showrooms. New and used <br> cars for sale.
- There is a wide range of models 
- to choose. VW Scirocco has a slick tidy look with the best performance. --> </b></center></h4>
+		<div id="dwn_load_description">
+			<!--this div tag contains the text about offers available on the outfits displayed on the website -->
+			<h4><b>
+					<center> Click to download a pdf brochure which shows the best VW Scirocco cars available in our showrooms.
+						New and used <br> cars for sale.
+						There is a wide range of models
+						to choose. VW Scirocco has a slick tidy look with the best performance. -->
+				</b></center>
+			</h4>
 
 
- 
 
-<div id="dloadfile">
 
-<a href = "file:///C:/Users/S45321419.SCCB/Downloads/scirocco-gp-brochure.pdf"download><img src ="images/download-image.jpg"> </a> 
-<!--this is the download image which appears on the "Offers" page so you can click to
+			<div id="dloadfile">
+
+				<a href="https://www.volkswagen.co.uk/assets/common/pdf/brochures/scirocco-gp-brochure.pdf" download><img
+						src="images/download-image.jpg"> </a>
+				<!--this is the download image which appears on the "Offers" page so you can click to
  download an offers leaflet from a word document -->
- </div>
- 
- </div>
- 
- <div id="socialnav"> <!--this div tag is for social navigations to external sites-->
-	<a href="https://www.facebook.com/VW/"><img src="images/facebook-icon.png" alt="social"></a> <!--hyperlink to Facebook -->
-	<a href="https://twitter.com/vw"><img src="images/twitter-icon.png" alt="social"></a> <!--hyperlink to Twitter-->
-	<a href="https://www.sandicliffe.co.uk/used-cars/vw/scirocco/gt/2015-3-door-automatic-petrol-2.0-tsi-bluemotion-tech-gt-3dr-dsg-53771?keyword=&adposition=&matchtype=b&gclid=CjwKCAjw5vz2BRAtEiwAbcVIL6jzrnK3S_7urKTU9xBnmLzGgfz2Jz-HaM2VBIgFC-23r2qmPW4zvhoCwrkQAvD_BwE"><img src="images/google-plus-icon.png" alt="social"></a> <!--hyperlink to Google+ -->
-    <a href="https://www.youtube.com/watch?v=iBoRxubkcsE"></a> <!--for Youtube -->
+			</div>
 
-</div>
- 
+		</div>
 
- <div id="copyright"> <!--this is the div tag for the copyright information within on the bottom of the page-->
-	<center><b>All rights reserved 2020-© VW Scirocco</b></center>
+		<div id="socialnav">
+			<!--this div tag is for social navigations to external sites-->
+			<a href="https://www.facebook.com/VW/"><img src="images/facebook-icon.png" alt="social"></a>
+			<!--hyperlink to Facebook -->
+			<a href="https://twitter.com/vw"><img src="images/twitter-icon.png" alt="social"></a>
+			<!--hyperlink to Twitter-->
+			<a
+				href="https://www.sandicliffe.co.uk/used-cars/vw/scirocco/gt/2015-3-door-automatic-petrol-2.0-tsi-bluemotion-tech-gt-3dr-dsg-53771?keyword=&adposition=&matchtype=b&gclid=CjwKCAjw5vz2BRAtEiwAbcVIL6jzrnK3S_7urKTU9xBnmLzGgfz2Jz-HaM2VBIgFC-23r2qmPW4zvhoCwrkQAvD_BwE"><img
+					src="images/google-plus-icon.png" alt="social"></a>
+			<!--hyperlink to Google+ -->
+			<a href="https://www.youtube.com/watch?v=iBoRxubkcsE"></a>
+			<!--for Youtube -->
+
+		</div>
+
+
+		<div id="copyright">
+			<!--this is the div tag for the copyright information within on the bottom of the page-->
+			<center><b>All rights reserved 2020-© VW Scirocco</b></center>
+		</div>
+
+
+
 	</div>
-	
-	
 
-	</div>
+</BODY>
 
-</BODY>	
 </HTML>

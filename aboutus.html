@@ -1,123 +1,158 @@
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="css/mystyles.css" rel="stylesheet" type="text/css" /> <!--this is a link to the css file -->
-		<script src="js/font.js"></script>
-		<title>Document</title>
-	</head>
-	
-	<BODY>
-		<div id="container">
-	
-	
-	
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/mystyles.css" rel="stylesheet" type="text/css" />
+	<!--this is a link to the css file -->
+	<script src="js/font.js"></script>
+	<title>Document</title>
+</head>
+
+<BODY>
+	<div id="container">
+
+
+
 		<div id="thead">
-			<h1><p><b><font color = "#DC143C">VW Scirocco</font></b></p></h1>  <!--this is the code for the image of the website name inserted in the
+			<h1>
+				<p><b>
+						<font color="#DC143C">VW Scirocco</font>
+					</b></p>
+			</h1>
+			<!--this is the code for the image of the website name inserted in the
 	div tag at the top of each page -->
 
+		</div>
+
+		<div id="toparea">
+			<!--these are hyperlinks for each headind in the navigation bar navigating around the website-->
+			<ul class="topnav">
+
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="product.html">Product</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+
+
+
+			</ul>
+		</div>
+
+
+
+		<div id="search">
+
+			<form class="example" action="action_page.php">
+				<input type="text" placeholder="Search.." name="search">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+
+		</div>
+
+		<div id="browse_btn">
+			<button class="btn"><i class="fa fa-folder"></i> Browse Library</button>
+
+
+		</div>
+
+		<div id="register">
+
+			<a href="php/register_code.php">
+
+				<button type="button" click="php/register_code.php">
+					<center>Register</center>
+				</button>
+
+			</a>
+
+		</div>
+
+		<div id="login">
+
+			<a href="php/login_code.php">
+
+				<button type="button" click="php/login_code.php">
+					<center>Login</center>
+				</button>
+
+			</a>
+			<!--this is the code for the login-->
+
+
+		</div>
+
+		<div id="aboutusone">
+			<!--this div tag contains the information about the company -->
+
+			<p><b>
+					<h2>About Us </h2>
+				</b>
+
+			<h3><b>VW car sale has been established since 2015. We offer VW scirocco become the most trusted place where <br>
+					you can view the cars easily.
+					Our cars are taught by the most professional cars.
+					We are confident that
+					you will <br>
+					always keep on coming back.
+				</b></h3>
+			</p>
+
+			<p>
+				<b>
+					<h2>More about VW Scirocco </h2>
+				</b>
+
+			<h3><b> The VW Scirocco GT is simply irresistable. It has an impressive look both inside and outside. It has a
+					highly<br>
+					functional system which will alsways keep the car on the move!
+				</b></h3>
+			</p>
+
+			<p>
+			<h2><b>Smooth Experience </b></h2>
+			</p>
+
+			<p>
+			<h3><b>Sleeker, sportier and more dynamic than ever before, the VW Scirocco is all about the driving
+					experience.<br>
+					If you are the kind of person who thrives on excitement and challenge, who keeps moving forwards
+					and <br> never looks back, who likes things to happen quickly without hanging around, the Scirocco is
+					most definitely <br> the car for you.</b></h3>
+			</p>
+
+		</div>
+
+		<div id="aboutus-image">
+			<!--this is the div tag for the first image on the webpage -->
+			<picture>
+				<img src="images/aboutus_img.jpg">
+			</picture>
+		</div>
+
+		<div id="socialnav">
+			<!--this div tag is for social navigations to external sites-->
+			<a href="https://www.facebook.com/VW/"><img src="images/facebook-icon.png" alt="social"></a>
+			<!--hyperlink to Facebook -->
+			<a href="https://twitter.com/vw"><img src="images/twitter-icon.png" alt="social"></a>
+			<!--hyperlink to Twitter-->
+			<a
+				href="https://www.sandicliffe.co.uk/used-cars/vw/scirocco/gt/2015-3-door-automatic-petrol-2.0-tsi-bluemotion-tech-gt-3dr-dsg-53771?keyword=&adposition=&matchtype=b&gclid=CjwKCAjw5vz2BRAtEiwAbcVIL6jzrnK3S_7urKTU9xBnmLzGgfz2Jz-HaM2VBIgFC-23r2qmPW4zvhoCwrkQAvD_BwE"><img
+					src="images/google-plus-icon.png" alt="social"></a>
+			<!--hyperlink to Google+ -->
+		</div>
+
+		<div id="copyright">
+			<!--this is the div tag for the copyright information within on the bottom of the page-->
+			<b>
+				<center>All rights reserved 2020-© VW Scirocco
+			</b></center>
+		</div>
+
+
+
 	</div>
-	
-	<div id="toparea"> <!--these are hyperlinks for each headind in the navigation bar navigating around the website-->
-	<ul class="topnav">
-	
-  <li><a href="index.html">Home</a></li>
-  <li><a href="aboutus.html">About Us</a></li>
-  <li><a href="product.html">Product</a></li>
-  <li><a href="contactus.html">Contact Us</a></li>
- 
-  
-  
-</ul>
-	</div>
-	
 
+</body>
 
-<div id="search">
-
-<form class="example" action="action_page.php">
-  <input type="text" placeholder="Search.." name="search">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form> 
-
-</div> 
-
-<div id= "browse_btn">
-<button class="btn"><i class="fa fa-folder"></i> Browse Library</button>
-
-
-</div>
-
-<div id="register">
-
-<a  href="php/register_code.php">
-
-	<button type="button" onclick="php/register_code.php"><center>Register</center></button>
-
-</a>
-				
-</div>
-
-<div id="login">
-
-<a  href="php/login_code.php">
-
-	<button type="button" onclick="php/login_code.php"><center>Login</center></button>
-
-</a> <!--this is the code for the login-->
-
-
-</div>
-	
-<div id="aboutusone"> <!--this div tag contains the information about the company -->
-
-<p><b><h2>About Us </h2></b>
-
-<h3><b>VW  car sale  has been established since 2015. We offer VW scirocco become the most trusted place where <br>
-you can view the cars easily. 
-Our cars  are taught by the most professional cars.
-We are confident that
-you will <br>
-always keep on coming back.
-</b></h3></p>
-
-<p>
-<b><h2>More about VW Scirocco </h2></b>
-
-<h3><b> The VW Scirocco GT is simply irresistable. It has an impressive look both inside and outside. It has a highly<br>
-functional system which will alsways keep the car on the move! 
-</b></h3></p>
- 
-<p><h2><b>Smooth Experience </b></h2></p>
-
-<p><h3><b>Sleeker, sportier and more dynamic than ever before, the VW Scirocco is all about the driving
-experience.<br>
-If you�re the kind of person who thrives on excitement and challenge, who keeps moving forwards
-and <br> never looks back, who likes things to happen quickly without hanging around, the Scirocco is
-most definitely <br> the car for you.</b></h3></p>
-
-</div>
-
-<div id="aboutus-image"> <!--this is the div tag for the first image on the webpage -->
-<picture>
-  <img src="images/aboutus_img.jpg">
-</picture>	
-</div>
-
-<div id="socialnav"> <!--this div tag is for social navigations to external sites-->
-	<a href="https://www.facebook.com/VW/"><img src="images/facebook-icon.png" alt="social"></a> <!--hyperlink to Facebook -->
-	<a href="https://twitter.com/vw"><img src="images/twitter-icon.png" alt="social"></a> <!--hyperlink to Twitter-->
-	<a href="https://www.sandicliffe.co.uk/used-cars/vw/scirocco/gt/2015-3-door-automatic-petrol-2.0-tsi-bluemotion-tech-gt-3dr-dsg-53771?keyword=&adposition=&matchtype=b&gclid=CjwKCAjw5vz2BRAtEiwAbcVIL6jzrnK3S_7urKTU9xBnmLzGgfz2Jz-HaM2VBIgFC-23r2qmPW4zvhoCwrkQAvD_BwE"><img src="images/google-plus-icon.png" alt="social"></a> <!--hyperlink to Google+ -->
-</div>
-
-<div id="copyright"> <!--this is the div tag for the copyright information within on the bottom of the page-->
-	<b><center>All rights reserved 2020-� VW Scirocco</b></center>
-	</div>
-	
-	
-
-	</div>
-
-</body>	
 </HTML>
-
